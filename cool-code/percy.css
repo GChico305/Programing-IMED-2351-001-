@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container 
+{
+	margin: 0 auto;
+	width: 960px;
+    border-radius: 25px;
+    border: 2px solid #02620D;
+    padding: 20px; 
+ 
+
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/orange_juice_2.0.ttf);
+}
+
+
+header 
+{
+	height: 80px;
+	color: #000000;
+	margin-bottom: 10px;
+    font-family: myFirstFont;
+	box-shadow: 3px 3px 3px #888888;
+	padding-left: 20px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+    background: yellow; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#09984B, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#09984B, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#09984B, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#09984B, white); /* Standard syntax (must be last) */
+
+		
+}
+
+aside 
+{
+    width: 150px;
+	float: left;
+
+	
+}
+
+section {
+	width: 770px;
+	float: left;
+
+	padding-left: 40px;
+	padding-bottom: 20px;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+	
+}
+
+
+footer {
+	height: 50px;
+	padding-top: 5px;
+	clear: both;
+	text-align: center;
+	border-top: solid #ebebeb;
+	box-shadow: 3px 3px 3px #888888;
+	background: yellow; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, #09984B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #09984B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #09984B); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #09984B); /* Standard syntax (must be last) */
+	
+}

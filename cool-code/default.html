@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+
+
+<title>Percy's Bar</title>
+</head>
+
+<body>
+<div class="container">
+
+<header>
+  <h1>This is My Cool Code</h1>
+
+<link rel="stylesheet" type="text/css" href="percy.css">
+</header>
+
+
+<aside>
+  <ul>
+    <li>Home</li>
+    <li>Contact us</li>
+  </ul>
+  <h2>Today's Date</h2>
+<!-- this script got from www.javascriptfreecode.com-Coded by: Krishna Eydat -->
+	
+	
+
+<html>
+
+
+<script LANGUAGE="JavaScript">
+	
+
+<!-- Begin
+monthnames = new Array(
+"January",
+"Februrary",
+"March",
+"April",
+"May",
+"June",
+"July",
+"August",
+"September",
+"October",
+"November",
+"Decemeber");
+var linkcount=0;
+function addlink(month, day, href) {
+var entry = new Array(3);
+entry[0] = month;
+entry[1] = day;
+entry[2] = href;
+this[linkcount++] = entry;
+}
+Array.prototype.addlink = addlink;
+linkdays = new Array();
+monthdays = new Array(12);
+monthdays[0]=31;
+monthdays[1]=28;
+monthdays[2]=31;
+monthdays[3]=30;
+monthdays[4]=31;
+monthdays[5]=30;
+monthdays[6]=31;
+monthdays[7]=31;
+monthdays[8]=30;
+monthdays[9]=31;
+monthdays[10]=30;
+monthdays[11]=31;
+todayDate=new Date();
+thisday=todayDate.getDay();
+thismonth=todayDate.getMonth();
+thisdate=todayDate.getDate();
+thisyear=todayDate.getYear();
+thisyear = thisyear % 100;
+thisyear = ((thisyear < 50) ? (2000 + thisyear) : (1900 + thisyear));
+if (((thisyear % 4 == 0) 
+&& !(thisyear % 100 == 0))
+||(thisyear % 400 == 0)) monthdays[1]++;
+startspaces=thisdate;
+while (startspaces > 7) startspaces-=7;
+startspaces = thisday - startspaces + 1;
+if (startspaces < 0) startspaces+=7;
+document.write("<table border=2 bgcolor= #eef8f3 ");
+document.write("bordercolor=#137335><font color=black>");
+document.write("<tr><td colspan=7><center><strong>" 
++ monthnames[thismonth] + " " + thisyear 
++ "</strong></center></font></td></tr>");
+document.write("<tr>");
+document.write("<td align=center>Su</td>");
+document.write("<td align=center>M</td>");
+document.write("<td align=center>Tu</td>");
+document.write("<td align=center>W</td>");
+document.write("<td align=center>Th</td>");
+document.write("<td align=center>F</td>");
+document.write("<td align=center>Sa</td>"); 
+document.write("</tr>");
+document.write("<tr>");
+for (s=0;s<startspaces;s++) {
+document.write("<td> </td>");
+}
+count=1;
+while (count <= monthdays[thismonth]) {
+for (b = startspaces;b<7;b++) {
+linktrue=false;
+document.write("<td>");
+for (c=0;c<linkdays.length;c++) {
+if (linkdays[c] != null) {
+if ((linkdays[c][0]==thismonth + 1) && (linkdays[c][1]==count)) {
+document.write("<a href=\"" + linkdays[c][2] + "\">");
+linktrue=true;
+      }
+   }
+}
+if (count==thisdate) {
+document.write("<font color='000000'><strong>");
+}
+if (count <= monthdays[thismonth]) {
+document.write(count);
+}
+else {
+document.write(" ");
+}
+if (count==thisdate) {
+document.write("</strong></font>");
+}
+if (linktrue)
+document.write("</a>");
+document.write("</td>");
+count++;
+}
+document.write("</tr>");
+document.write("<tr>");
+startspaces=0;
+}
+document.write("</table></p>");
+// End -->
+</script>
+
+
+
+</aside>
+
+
+<section> 
+  <h2>Calendar Code</h2>
+<p>After doing some research, I found this cool website that provides JavaScript codes for free. The website is not really as descriptive as I thought it was going to be, but is simple enough for those that understand a little bit of JavaScript. <br /><br /> First, I selected and copied the code to paste it into my DreamWeaver HTML document. Then went through the code and changed everything I did not like so that it can match the page and removed the links that I did not want to have displayed under my calendar. <br /><br /> I did like that there was a link to show you how to insert the code into your website. However, I think that they could have done a better job explaining and giving different options on how to change the calendar to my standards. <br /><br /><strong> Link to the Calendar:</strong> http://www.javascriptfreecode.com/36.htm<br /><strong> Link to the how to:</strong> http://www.javascriptfreecode.com/how.htm</p>
+	
+</section>
+
+<footer>
+<p>footer content</p></footer>
+
+</div>
+</body>
+	
+	
+</html>

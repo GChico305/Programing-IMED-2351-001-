@@ -1,0 +1,72 @@
+
+FOR:
+
+for( var a= 1; a<10; a++){
+	alert(a);
+}
+	
+
+---------------------------------------------
+WHILE
+var a= 1;
+while ( a<10){
+	alert(a);
+	a++;
+}
+
+----------------------------------------------------
+Array:
+
+var myPets = ["dog", "fish", "rabbit", "hamster"];
+	alert(myPets[2]);
+-------------------------------------------------------
+Array2:
+
+var myPets=new Array();
+	myPets[0] = "Dog";
+	myPets[1] = "Cat";
+	myPets[2] = "Hamster";
+	
+	document.write(myPets[2]);
+--------------------------------
+Paird Array:
+
+var myShoes= {size: 9, color: "black", style: "heels"}
+
+document.write(myShoes.size);
+
+-------------------------------------
+Array methods 
+Clean Camel:
+
+var myPets=new Array();
+	myPets[0] = "Dog";
+	myPets[1] = "Cat";
+	myPets[2] = "Hamster";
+	myPets[3] = "cow";
+	
+	myPets.sort();
+	document.write(myPets);
+
+
+
+
+
+
+
+----------------------------------------
+READY
+
+
+var a= 1;
+while ( a<3){
+	alert("You do not have "+ a + " fish!");
+	a++;
+}	
+	
+for( var a= 3; a<5; a++){
+	alert("You have "+ a + " fish!");
+}
+	
+var myFish = ["Memo", " Mimi", " Momo", " Mama"];
+	alert(myFish[1] + " Seems to be pregnant");
