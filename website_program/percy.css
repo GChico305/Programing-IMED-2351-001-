@@ -7,7 +7,6 @@
     border-radius: 25px;
     border: 2px solid #abb96e;
     padding: 20px; 
-	min-height: 500px;
 }
 
 
@@ -29,20 +28,22 @@ aside
     width: 150px;
 	float: left;
 	background-color: #e9dcaf;
-	min-height: 400px;
+	min-height: 325px;
  margin-bottom: 10px;
 }
 
 content {
 	width: 770px;
 	float: left;
-
 	padding-left: 40px;
 	padding-bottom: 20px;
     background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
-	min-height: 400px;
 	
+}
+
+.hide {
+	display: none;
 }
 
 

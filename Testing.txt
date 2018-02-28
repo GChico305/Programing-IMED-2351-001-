@@ -1,0 +1,35 @@
+// JavaScript Document
+var home = document.getElementById("home");
+var homeDesc = document.getElementById("home-desc");
+
+var about = document.getElementById("about");
+var aboutDesc = document.getElementById("about-desc");
+
+var contact = document.getElementById("contact");
+var contactDesc = document.getElementById("contact-desc");
+
+
+home.addEventListener("click", function(){
+	if (homeDesc.className === "hide") {
+		homeDesc.className = "";		
+}	else {
+	homeDesc.className = "hide";
+}
+});
+
+about.addEventListener("click", function(){
+	if (aboutDesc.className === "hide") {
+		aboutDesc.className = "";
+}	else {
+	aboutDesc.className = "hide";
+}	
+});
+
+contact.addEventListener("click", function(){
+	if (contactDesc.className === "hide") {
+		contactDesc.className = "";
+}	else {
+	contactDesc.className = "hide";
+}	
+});
+
