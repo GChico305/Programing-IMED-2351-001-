@@ -1,0 +1,54 @@
+/* CSS Document */
+
+.container 
+{
+	margin: 0 auto;
+	width: 960px;
+    border-radius: 25px;
+    border: 2px solid #abb96e;
+    padding: 20px; 
+}
+
+
+
+
+header 
+{
+	height: 80px;
+	color: #000000;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	background-color: #abb96e;
+}
+
+aside 
+{
+    width: 190px;
+	padding-left: 20px;
+	float: left;
+	background-color: #e9dcaf;
+	min-height: 780px;
+ margin-bottom: 10px;
+}
+
+content {
+	width: 730px;
+	float: left;
+	padding-left: 20px;
+	padding-bottom: 20px;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+	
+}
+
+
+footer {
+	height: 50px;
+	padding-top: 5px;
+	clear: both;
+	text-align: center;
+	background-color: #abb96e;
+	
+}
