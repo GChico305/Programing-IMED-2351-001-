@@ -1,0 +1,60 @@
+/* CSS Document */
+
+.container 
+{
+	margin: 0 auto;
+	width: 960px;
+    border-radius: 25px;
+    border: 2px solid #abb96e;
+    padding: 20px; 
+}
+
+
+
+
+header 
+{
+	height: 469px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 10px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	background-color: #abb96e;
+}
+
+aside 
+{
+    width: 190px;
+	padding-left: 20px;
+	padding-top: 20px;
+	float: left;
+	background-color: #e9dcaf;
+	height: 1200px;
+ margin-bottom: 10px;
+}
+
+content {
+	width: 730px;
+	float: left;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+	
+}
+
+.hide {
+	display: none;
+}
+
+
+footer {
+	height: 50px;
+	padding-top: 20px;
+	clear: both;
+	text-align: center;
+	background-color: #abb96e;
+	
+}

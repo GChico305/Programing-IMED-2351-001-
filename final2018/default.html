@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+
+
+<title >GEO'S LIFE</title>
+</head>
+
+<body>
+<div class="container">
+
+<header>
+  <h1>GEO'S LIFE</h1><img src="images/geo001.jpg" width="100%" alt=""/>
+
+<link rel="stylesheet" type="text/css" href="percy.css" >
+</header>
+
+
+<aside>
+  <ul>
+	<li><a href="#" id="home" style="color: #000000" data-desc="home-desc"><strong>HOME</strong></a></li>
+    <li><a href="#" id="about" style="color: #000000" data-desc="about-desc"><strong>ABOUT</strong></a></li>
+    <li><a href="#" id="contact" style="color: #000000" data-desc="contact-desc"><strong>CONTACT</strong></a></li>
+  </ul>
+	
+	<BR>
+<script LANGUAGE="JavaScript">
+	
+
+<!-- Begin
+monthnames = new Array(
+"January",
+"Februrary",
+"March",
+"April",
+"May",
+"June",
+"July",
+"August",
+"September",
+"October",
+"November",
+"Decemeber");
+var linkcount=0;
+function addlink(month, day, href) {
+var entry = new Array(3);
+entry[0] = month;
+entry[1] = day;
+entry[2] = href;
+this[linkcount++] = entry;
+}
+Array.prototype.addlink = addlink;
+linkdays = new Array();
+monthdays = new Array(12);
+monthdays[0]=31;
+monthdays[1]=28;
+monthdays[2]=31;
+monthdays[3]=30;
+monthdays[4]=31;
+monthdays[5]=30;
+monthdays[6]=31;
+monthdays[7]=31;
+monthdays[8]=30;
+monthdays[9]=31;
+monthdays[10]=30;
+monthdays[11]=31;
+todayDate=new Date();
+thisday=todayDate.getDay();
+thismonth=todayDate.getMonth();
+thisdate=todayDate.getDate();
+thisyear=todayDate.getYear();
+thisyear = thisyear % 100;
+thisyear = ((thisyear < 50) ? (2000 + thisyear) : (1900 + thisyear));
+if (((thisyear % 4 == 0) 
+&& !(thisyear % 100 == 0))
+||(thisyear % 400 == 0)) monthdays[1]++;
+startspaces=thisdate;
+while (startspaces > 7) startspaces-=7;
+startspaces = thisday - startspaces + 1;
+if (startspaces < 0) startspaces+=7;
+document.write("<table border=2 bgcolor= #e9dcaf ");
+document.write("bordercolor=#e9dcaf><font color=black>");
+document.write("<tr><td colspan=7><center><strong>" 
++ monthnames[thismonth] + " " + thisyear 
++ "</strong></center></font></td></tr>");
+document.write("<tr>");
+document.write("<td align=center>Su</td>");
+document.write("<td align=center>M</td>");
+document.write("<td align=center>Tu</td>");
+document.write("<td align=center>W</td>");
+document.write("<td align=center>Th</td>");
+document.write("<td align=center>F</td>");
+document.write("<td align=center>Sa</td>"); 
+document.write("</tr>");
+document.write("<tr>");
+for (s=0;s<startspaces;s++) {
+document.write("<td> </td>");
+}
+count=1;
+while (count <= monthdays[thismonth]) {
+for (b = startspaces;b<7;b++) {
+linktrue=false;
+document.write("<td>");
+for (c=0;c<linkdays.length;c++) {
+if (linkdays[c] != null) {
+if ((linkdays[c][0]==thismonth + 1) && (linkdays[c][1]==count)) {
+document.write("<a href=\"" + linkdays[c][2] + "\">");
+linktrue=true;
+      }
+   }
+}
+if (count==thisdate) {
+document.write("<font color='000000'><strong>");
+}
+if (count <= monthdays[thismonth]) {
+document.write(count);
+}
+else {
+document.write(" ");
+}
+if (count==thisdate) {
+document.write("</strong></font>");
+}
+if (linktrue)
+document.write("</a>");
+document.write("</td>");
+count++;
+}
+document.write("</tr>");
+document.write("<tr>");
+startspaces=0;
+}
+document.write("</table></p>");
+// End -->
+</script>
+
+	<BR>
+<button id="btn"><HR>GEO'S FAVORITE PETS<HR></button>	
+<div id="animal-info">
+	</div>
+	
+</aside>
+
+
+<content> 
+	<p class="hide" id="home-desc"> <img id="geo3" src="images/geo003.jpg" width="200" height="200" alt=""/> <b>HOME</b><br><br>
+
+    Welcome to Geo's website. Geo was born in Peru and moved to Miami, Florida when he was 9 years old. In this website you will find information about Geo and images of places I've visited. You will also se images of his adorable dogs (Max and Holly). Find out what are Geo's Likes and Dislikes by viewing the Likes and Dislikes section<BR><BR> Please feel free to contact him for more information. ENJOY! 
+
+	
+	</p>
+	
+	<p> <img id="geo4" src="images/geo003.jpg" width="200" height="200" alt=""/> <b>HOME</b><br><br>
+
+ Welcome to Geo's website. Geo was born in Peru and moved to Miami, Florida when he was 9 years old. In this website you will find information about Geo and images of places I've visited. You will also se images of his adorable dogs (Max and Holly). Find out what are Geo's Likes and Dislikes by viewing the Likes and Dislikes section<BR><BR> Please feel free to contact him for more information. ENJOY! 
+	</p>
+
+
+<p  class="hide" id="about-desc"> 	<img id="geo" src="images/geo004.jpg" width="200" height="200" alt=""/> <b>ABOUT</b><br><br>
+
+	Percy Giovanny Bustamante-Gooden, also known as GEO, was born in Chiclayo, Peru. He moved to Miami when he was 9 years old and enrolled Miami Edison Elementary Schoo. He was known for getting bad grades. When he got to High school, he had to be placed into a private school in order for him to get his high school diploma. He enrolled into Miami Dade College when he was 18, but life forced him to drop out of college and to work. 10 years later he decided to go back to college and now he's getting ready to graduate with a 4.0 GPA.</p>
+
+
+	
+<p  class="hide" id="contact-desc"><img id="geo2" src="images/geo002.jpg" width="200" height="200" alt=""/> <b>CONTACT</b><br><br>
+
+	Please feel free to contact Geo for more information about his life.<br>
+<br>
+Email: info@geoslife.com<br>
+Phone: 305-915-1598<br>
+Instagram: @GChico305<br>
+Facebook: Geo Bustamante<br>
+Linkedin: Linkedin.com/geo.bustamante
+</p>
+	<BR><BR><BR><BR>	<h3>MY PETS </h3><hr>
+<img src="images/pets-001.jpg" alt="geo" width="240" height="250" id="blurmeone">	
+
+<img src="images/pets-002.jpg" alt="geo" width="240" height="250" id="blurmetwo"> 
+	
+<img src="images/pets-003.jpg" alt="geo" width="240" height="250" id="blurmethree">	
+<BR><BR><br>
+	<H3>LIKES AND DISLIKES</H3><HR>
+	
+		<form name="messageForm">
+  <select name="messagePick" OnChange="messageReveal()">
+	  <option value="0">SELECT ONE</option>
+  <option>TRAVEL</option>
+  <option>SHOPPING</option>
+  <option>DINING</option>
+  <option>ANIMALS</option>
+  <option>DRINKS</option>
+  </select> <br><br>
+  
+  <textarea name="messageField" rows="4" cols="88" wrap="virtual"></textarea><BR><BR>
+		</form>
+	
+
+	<div id="flip"><br>
+		<hr><h3>CLICK HERE TO SHOW OR HIDE MAP </h3><hr>
+	</div>
+	<div id="panel">
+
+	<div id="googleMap" style="width:100%;height:200px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjQNXzvwb0P1ezYwXeTrFMTYijmqXZsAg&callback=myMap"></script>
+
+
+</div>
+
+	
+	
+		
+  
+		
+		
+  </content>
+
+<footer>
+Contact: info@geoslife.com</footer>
+
+</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script> 
+</body>
+</html>
